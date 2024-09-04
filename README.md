@@ -24,7 +24,7 @@ Read the following sections of the manual (https://www.gnu.org/software/make/man
 - Section 10.5.1, 10.5.2, 10.5.3
 
 ### Compilation toolchains
-- [ ] Read this overview of tool names.
+- [x] Read this overview of tool names.
 https://labs.dese.iisc.ac.in/embeddedlab/hardware-and-software-setup/
 
 - [ ] Read chapter 4 from Programming Embedded Systems.
