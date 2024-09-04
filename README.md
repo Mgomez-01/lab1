@@ -54,20 +54,20 @@ int main(void) {
     return 0
 }
 ```
-- [ ]  Commit the files.
-- [ ]  Create a new repository on Github.
-- [ ]  Add the Github repository as a remote `git remote add github git@github.com:uofu-embed/my-lab2`
-- [ ]  Push to the remote.
+- [x]  Commit the files.
+- [x]  Create a new repository on Github.
+- [x]  Add the Github repository as a remote `git remote add github git@github.com:uofu-embed/my-lab2`
+- [x]  Push to the remote.
 
 ## Basic Makefile rules
 
-- [ ] Open the terminal, and run `make` (with no arguments).
+- [x] Open the terminal, and run `make` (with no arguments).
 ```
 % make
 make: *** No targets.  Stop.
 ```
 
-- [ ] Next try to run `make hello.txt`
+- [x] Next try to run `make hello.txt`
 
 ```
 % make hello.txt
@@ -76,15 +76,19 @@ make: *** No rule to make target `hello.txt'.  Stop.
 
 1. What do these error messages mean? Briefly discuss with your partner.
 
-- [ ] Add the following to `Makefile`.
+- [x] Add the following to `Makefile`.
 ```
 hello.txt:
     echo "hello world!" > hello.txt
 ```
 
 1. Which part is the *rule*, the *target*, and the *recipe*?
+   - the rule is the name before the colon :
+   - the target would be after that 
+   - and the recipe is the instructions shown which are tab spaced below that.
 
-- [ ] Run make again. A file should be created.
+
+- [x] Run make again. A file should be created.
 ```
 % make hello.txt
 echo "hello world!" > hello.txt
@@ -93,7 +97,7 @@ Makefile        hello.txt       main.c
 ```
 
 1. Predict what will happen if you run the same command again.
-
+   - Nothing since the target has not changed and we see that the file exists, so nothing will be done. 
 ```
 % make hello.txt
 make: `hello.txt' is up to date.
