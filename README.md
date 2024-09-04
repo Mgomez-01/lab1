@@ -24,7 +24,7 @@ Read the following sections of the manual (https://www.gnu.org/software/make/man
 - Section 10.5.1, 10.5.2, 10.5.3
 
 ### Compilation toolchains
-- [x] ~~Read this overview of tool names.~~
+- [ ] Read this overview of tool names.
 https://labs.dese.iisc.ac.in/embeddedlab/hardware-and-software-setup/
 
 - [ ] Read chapter 4 from Programming Embedded Systems.
@@ -44,10 +44,10 @@ https://www.slideshare.net/slideshow/cu-cmp445-lec13introductiontotoolchain1/483
 ## Project setup
 ### Tasks
 - In a new VSCode window, select "Open Folder", and create a new folder. **Do not create a Pico project**, we need a blank folder.
-- [ ] Initialize a git repository with `git init`.
-- [ ]  Create a new file called `Makefile`.
-- [ ]  Create a new file called `main.c`
-- [ ]  Copy the following into `main.c`
+- [x] Initialize a git repository with `git init`.
+- [x]  Create a new file called `Makefile`.
+- [x]  Create a new file called `main.c`
+- [x]  Copy the following into `main.c`
 ```
 int main(void) {
     while(1);
